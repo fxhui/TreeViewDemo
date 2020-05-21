@@ -36,30 +36,30 @@ namespace TreeViewDemo.ViewModels
                     ChildList = new ObservableCollection<TypeTreeModel>()
                     {
                         new TypeTreeModel(){ Id=2,Name="苹果" },
-                        new TypeTreeModel(){ Id=2,Name="华为",
+                        new TypeTreeModel(){ Id=3,Name="华为",
                             ChildList = new ObservableCollection<TypeTreeModel>()
                             {
-                                new TypeTreeModel(){Id=5,Name="荣耀" }
+                                new TypeTreeModel(){Id=4,Name="荣耀" }
                             }},
-                        new TypeTreeModel(){ Id=2,Name="小米",
+                        new TypeTreeModel(){ Id=5,Name="小米",
                             ChildList = new ObservableCollection<TypeTreeModel>()
                             {
-                                new TypeTreeModel(){Id=5,Name="红米" }
+                                new TypeTreeModel(){Id=6,Name="红米" }
                             }}
                     }
                 },
                 new TypeTreeModel()
                 {
-                    Id=3,
+                    Id=7,
                     Name="笔记本",
                     ChildList = new ObservableCollection<TypeTreeModel>()
                     {
-                        new TypeTreeModel(){Id=4,Name="联想"}
+                        new TypeTreeModel(){Id=8,Name="联想"}
                     }
                 },
                 new TypeTreeModel()
                 {
-                    Id=3,
+                    Id=9,
                     Name="耳机"
                 }
             };

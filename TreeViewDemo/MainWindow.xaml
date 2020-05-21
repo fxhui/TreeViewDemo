@@ -32,9 +32,9 @@
                 </DataTemplate>
             </TreeView.Resources>
         </TreeView>
-        <StackPanel  Grid.Column="1"  Orientation="Horizontal" Margin="15">
+        <StackPanel  Grid.Column="1"  Orientation="Horizontal" Margin="15" VerticalAlignment="Top">
             <TextBlock Text="选中项："  FontSize="20"></TextBlock>
-            <TextBlock Text="{Binding SelectItem.Name}" FontSize="20"></TextBlock>
+            <TextBlock Text="{Binding SelectItem.Name}" FontSize="20" Width="100"></TextBlock>
         </StackPanel>
 
 
